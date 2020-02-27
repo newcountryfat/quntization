@@ -1,0 +1,106 @@
+# -*- coding: utf-8 -*-
+"""
+-------------------------------------------------
+   File Name：     stock_list
+   Description :
+   Author :       yongyusu
+   date：          2020/2/8
+-------------------------------------------------
+   Change Activity:
+                   2020/2/8:
+-------------------------------------------------
+"""
+
+stock_list = [
+    {"name": "zhongxing", "code": "sz.000063", "mark": "中兴通信"},
+    {"name": "zhaohang", "code": "sh.600036", "mark": "招行"},
+    {"name": "langchao", "code": "sz.000977", "mark": "浪潮信息"},
+    {"name": "pingan", "code": "sz.000001", "mark": "平安银行"},
+    {"name": "baiyun", "code": "sh.600004", "mark": "白云机场"},
+    {"name": "jinshi", "code": "sh.603505", "mark": "金石资源"},
+    {"name": "wankeA", "code": "sz.000002", "mark": "万科A"},
+    {"name": "baoli", "code": "sh.600048", "mark": "保利地产"},
+    {"name": "haixiang", "code": "sz.002099", "mark": "海翔药业"},
+    {"name": "hailuo", "code": "sz.600585", "mark": "海螺水泥"},
+    {"name": "lixunjingmi", "code": "sz.002475", "mark": "立讯精密"},
+    {"name": "hualan", "code": "sz.002007", "mark": "华兰生物"},
+    {"name": "jixiang", "code": "sh.603885", "mark": "吉祥航空"},
+    {"name": "hengshengdianzi", "code": "sh.600570", "mark": "恒生电子"},
+    {"name": "longji", "code": "sh.601012", "mark": "隆基股份"},
+    {"name": "chenguangwenju", "code": "sh.603899", "mark": "晨光文具"},
+    {"name": "geli", "code": "sz.000651", "mark": "格力电器"},
+    {"name": "dacanlin", "code": "sh.603233", "mark": "大参林"},
+    {"name": "zhongguoruanjian", "code": "sh.600536", "mark": "中国软件"},
+    {"name": "zhaoyichuangxin", "code": "sh.603986", "mark": "兆易创新"},
+    {"name": "yiweilineng", "code": "sz.300014", "mark": "亿纬锂能"},
+    {"name": "jingdongfangA", "code": "sz.000725", "mark": "京东方A"},
+    {"name": "haikangweishi", "code": "sz.002415", "mark": "海康威视"},
+    {"name": "gujiajiaju", "code": "sh.603816", "mark": "顾家家居"},
+    {"name": "guanglianda", "code": "sz.002410", "mark": "广联达"},
+    {"name": "hongtazhengquan", "code": "sh.601236", "mark": "红塔证券"},
+    {"name": "zhongxinjiantou", "code": "sh.601066", "mark": "中信建投"},
+    {"name": "yili", "code": "sh.600887", "mark": "伊利股份"},
+    {"name": "zhongxinzhengquan", "code": "sh.600030", "mark": "中信证券"},
+    {"name": "dongfangcaifu", "code": "sz.300059", "mark": "东方财富"},
+    {"name": "xingyeyinhang", "code": "sh.601166", "mark": "兴业银行"},
+    {"name": "xiandaozhineng", "code": "sz.300450", "mark": "先导智能"},
+    {"name": "dazujiguang", "code": "sz.002008", "mark": "大族激光"},
+    {"name": "fenzhongchuanmei", "code": "sz.002027", "mark": "分众传媒"},
+    {"name": "kanghongyaoye", "code": "sz.002773", "mark": "康弘药业"},
+    {"name": "suboer", "code": "sz.002032", "mark": "苏泊尔"},
+    {"name": "lingyizhizao", "code": "sz.002600", "mark": "领益智造"},
+    {"name": "ningdeshidai", "code": "sz.300750", "mark": "宁德时代"},
+    {"name": "xinweitongxin", "code": "sz.300136", "mark": "信维通信"},
+    {"name": "zhongshihua", "code": "sh.600028", "mark": "中国石化"},
+    {"name": "guizhoumaotai", "code": "sh.600519", "mark": "贵州茅台"},
+    {"name": "wuliangye", "code": "sz.000858", "mark": "五粮液"},
+    {"name": "changchungaoxin", "code": "sz.000661", "mark": "长春高新"},
+    {"name": "muyuangufen", "code": "sz.002714", "mark": "牧原股份"},
+    {"name": "sanyizhonggong", "code": "sh.600031", "mark": "三一重工"},
+    {"name": "zhongguoguolv", "code": "sh.601888", "mark": "中国国旅"},
+    {"name": "zhuoshengwei", "code": "sz.300782", "mark": "卓胜微"},
+    {"name": "beifanghuachuang", "code": "sz.002371", "mark": "北方华创"},
+    {"name": "kedaxunfei", "code": "sz.002230", "mark": "科大讯飞"},
+    {"name": "ziguanggufen", "code": "sz.000938", "mark": "紫光股份"},
+    {"name": "siweituxin", "code": "sz.002405", "mark": "四维图新"},
+    {"name": "tonghuashun", "code": "sz.300033", "mark": "同花顺"},
+    {"name": "maideyiliao", "code": "sh.688310", "mark": "迈得医疗"},
+    {"name": "gergufen", "code": "sz.002241", "mark": "歌尔股份"},
+    {"name": "dahuagufen", "code": "sz.002236", "mark": "大华股份"},
+    {"name": "shanghaijichang", "code": "sh.600009", "mark": "上海机场"},
+    {"name": "jincaihulian", "code": "sz.002530", "mark": "金财互联"},
+    {"name": "baoxinruanjian", "code": "sh.600845", "mark": "宝信软件"},
+    {"name": "wangsukeji", "code": "sz.300017", "mark": "网宿科技"},
+    {"name": "beiqilangu", "code": "sh.600733", "mark": "北汽蓝谷"},
+    {"name": "meinianjiankang", "code": "sz.002044", "mark": "美年健康"},
+    {"name": "shuanghuifazhan", "code": "sz.000895", "mark": "双汇发展"},
+    {"name": "sanqihuyu", "code": "sz.002555", "mark": "三七互娱"},
+    {"name": "yongyouwangluo", "code": "sh.600588", "mark": "用友网络"},
+    {"name": "shennandianlu", "code": "sz.002916", "mark": "深南电路"},
+    {"name": "shengyikeji", "code": "sh.600183", "mark": "生益科技"},
+    {"name": "zhongguodianying", "code": "sh.600977", "mark": "中国电影"},
+    {"name": "tianfengzhengquan", "code": "sh.601162", "mark": "天风证券"},
+    {"name": "sananguangdian", "code": "sh.600703", "mark": "三安光电"},
+    {"name": "zhongguoweitong", "code": "sh.601698", "mark": "中国卫通"},
+    {"name": "dangshengkeji", "code": "sz.300073", "mark": "当升科技"},
+    {"name": "xinchengkonggu", "code": "sh.601155", "mark": "新城控股"},
+    {"name": "jingshengjidian", "code": "sz.300316", "mark": "晶盛机电"},
+    {"name": "weichaidongli", "code": "sz.000338", "mark": "潍柴动力"},
+    {"name": "mingyangzhineng", "code": "sh.601615", "mark": "明阳智能"},
+{"name": "huidingkeji", "code": "sh.603160", "mark": "汇顶科技"},
+    {"name": "huayouguye", "code": "sh.603799", "mark": "华友钴业"},
+    {"name": "haitianweiye", "code": "sh.603288", "mark": "海天味业"},
+    {"name": "yonghuichaoshi", "code":"sh.601933", "mark": "永辉超市"},
+    {"name": "zhongguojianzhu", "code":"sh.601668", "mark": "中国建筑"},
+    {"name": "zhongguozhongche", "code":"sh.601766", "mark": "中国中车"},
+    {"name": "gongshangyinhang", "code":"sh.601398", "mark": "工商银行"},
+    {"name": "yuantongsudi", "code": "sh.600233", "mark": "圆通速递"},
+    {"name": "minshengyinhang", "code": "sh.600016", "mark": "民生银行"},
+    {"name": "wenshigufen", "code": "sz.300498", "mark": "温氏股份"},
+    {"name": "lepuyiliao", "code": "sz.300003", "mark": "乐普医疗"},
+    {"name": "hengruiyiyao", "code":"sh.600276", "mark": "恒瑞医药"}
+]
+
+new_stock_list = [
+
+]
