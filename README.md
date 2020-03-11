@@ -11,4 +11,4 @@ base python 3.5 +
 3, run strategy2_forcast.py
 
 ## record
-17 pass, 5 fail ,up to 2020-03-04
+24 pass, 6 fail ,up to 2020-03-09
