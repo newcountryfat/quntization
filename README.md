@@ -10,8 +10,6 @@ some strategy practice
 2. run strategy1_forcast.py
 3. run strategy2_forcast.py
 
-## record
-24 pass, 6 fail ,up to 2020-03-09
-
-
+## simulation
+https://github.com/newcountryfat/quntization
 
